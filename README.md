@@ -10,9 +10,9 @@ Aplikasi media sosial yang dibuat menggunakan **Laravel** sebagai Backend (REST 
 
 ## Struktur Folder
 
-- `backend_laravel/` : Kode API Backend (Laravel 10+).
+- `social_media_api/` : Kode API Backend (Laravel 10+).
   
-- `frontend_flutter/` : Kode Aplikasi Mobile (Flutter).
+- `Flutter-Social-Media-App_login upgrade-main/` : Kode Aplikasi Mobile (Flutter).
 
 ## Panduan Instalasi & Menjalankan Backend (Laravel)
 ### Requirements
@@ -23,8 +23,8 @@ Pastikan komputer sudah terinstal:
 
 ### Langkah 1: Masuk ke Folder Backend
 Buka terminal dan arahkan ke direktori backend:
-```bash
-cd backend_laravel
+```
+cd social_media_api
 ```
 
 ### Langkah 2: Install Dependensi
@@ -36,7 +36,7 @@ composer install
 ### Langkah 3: Konfigurasi Environment (.env)
 Salin file contoh konfigurasi dan buat file .env baru:
 ```
-cp .env.example .env
+copy .env.example .env
 ```
 Buka file .env tersebut dengan text editor, lalu sesuaikan konfigurasi database:
 ```
@@ -66,7 +66,7 @@ php artisan serve --host=0.0.0.0 --port=8000
 ### Panduan Frontend (Flutter)
 1. Masuk ke folder frontend:
    ```
-   cd frontend_flutter
+   cd Flutter-Social-Media-App_login upgrade-main
    ```
    
 2. Install paket flutter:

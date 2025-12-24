@@ -1,4 +1,4 @@
-# Social Media App (Laravel + Flutter)
+# Social Media App (Flutter + Laravel)
 
 Aplikasi media sosial yang dibuat menggunakan **Laravel** sebagai Backend (REST API) dan **Flutter** sebagai Frontend (Mobile App).
 

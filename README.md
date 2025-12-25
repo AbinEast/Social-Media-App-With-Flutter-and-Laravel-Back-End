@@ -15,7 +15,7 @@ Aplikasi media sosial yang dibuat menggunakan **Laravel** sebagai Backend (REST 
 
 ## Panduan Instalasi & Menjalankan Backend (Laravel)
 ### Requirements
-Pastikan komputer sudah terinstal:
+Pastikan di komputer sudah terinstal:
 - PHP (versi 8.1 atau lebih baru)
 - Composer
 - MySQL (via XAMPP, Laragon, atau Docker)
@@ -37,7 +37,7 @@ Salin file contoh konfigurasi dan buat file .env baru:
 ```
 copy .env.example .env
 ```
-Buka file .env tersebut dengan text editor, lalu sesuaikan konfigurasi database:
+Buka file .env tersebut, lalu sesuaikan konfigurasi database:
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -73,7 +73,7 @@ php artisan serve --host=0.0.0.0 --port=8000
    flutter pub get
    ```
    
-3. PENTING: Cek file lib/pages/home_page.dart (dan file API lainnya). Pastikan apiUrl sesuai dengan IP komputer Anda:
+3. PENTING: Cek file lib/pages/home_page.dart (dan file API lainnya). Pastikan apiUrl sesuai dengan IP komputer yang digunakan:
    - Emulator Android: Gunakan http://10.0.2.2:8000
      
    - HP Fisik / iOS: Gunakan IP LAN Laptop (contoh: http://192.168.1.x:8000)

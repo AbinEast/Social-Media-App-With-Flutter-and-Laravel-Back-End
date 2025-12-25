@@ -9,10 +9,9 @@ Aplikasi media sosial yang dibuat menggunakan **Laravel** sebagai Backend (REST 
 - Penyimpanan sesi lokal dan manajemen state.
 
 ## Struktur Folder
-
-- `social_media_api/` : Kode API Backend (Laravel 10+).
-  
 - `Flutter-Social-Media-App_login upgrade-main/` : Kode Aplikasi Mobile (Flutter).
+  
+- `social_media_api/` : Kode API Backend (Laravel 10+).
 
 ## Panduan Instalasi & Menjalankan Backend (Laravel)
 ### Requirements
